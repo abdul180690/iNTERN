@@ -1,0 +1,126 @@
+#header{
+    height: 50px;
+    
+    overflow: auto;
+}
+#logotext{
+    position:absolute;
+    
+}
+#image{
+    height: 400px;
+    background-image: url(/images/ciy-landscape.jpg);
+    background-size:cover;
+    position: relative;
+    text-align: center;
+    overflow: auto;
+}
+#head1
+{
+    color: white;
+    margin-top: 60px;
+}
+#titlepara{
+    margin-top: 40px;
+    color: white;  
+    line-height: 1.5;
+
+}
+
+nav{
+    color: white;
+    text-align: right;
+    
+
+}
+a{
+
+}
+
+#learnButton{
+    margin-top: 40px;
+    color: white;
+    background-color: rgb(212, 12, 12);
+    height: 40px;
+    width: 150px;
+    border-style: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#section3{
+    height: 400px;
+    width: 100%;
+    background-color: white;  
+    overflow:hidden; 
+}
+#allicons{
+    margin: 20px 30px 10px 100px;
+    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.icons{
+    
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-size: 150px;
+    float:left;
+}
+#allicontext{
+    margin-top: 20px;
+    margin-left: 100px;
+    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    
+}
+
+
+.icontext{
+    height: 100px;
+    width: 180px;
+    float: left;
+    text-align: center;
+}
+
+#section4{
+    background-color: rgb(65, 65, 65);
+    height: 450px;
+}
+#head2{
+    color: orange;
+    display: inline-block;
+    padding: 20px 50px 20px 100px;
+}
+#works{
+    background-color: #25b6e6;
+    height: 40px;
+    width: 150px;
+    border-style: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#section4{
+    margin: 10px 0px 0px 0px;
+}
+.box{
+    background-color: grey;
+    height: 200px;
+    width: 200px;
+    border: solid 5px;
+    border-color: white;
+    margin: 10px 100px 5px 100px;
+}
+.title{
+    color: orange;
+    border-color: red;
+    margin: 0px 100px 5px 100px;
+}
+.para{
+    color: rgb(159, 157, 157);
+    border-color: red;
+    margin: 5px 100px 50px 100px;
+    
+}

@@ -1,0 +1,75 @@
+body{
+    background-color: navy;
+}
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    margin: 50px;
+    overflow: auto;
+}
+#insideBox{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(248, 218, 163);
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    overflow: auto;    
+}
+#face{
+    width: 30px;    
+    height: 30px;
+    border-radius: 50%;
+    background-color:rgb(248, 218, 163);
+    position: relative;
+    margin: 18px 15px;
+    overflow: auto; 
+    border-style: solid;
+    border-color: red;    
+}
+#eye1{
+    width: 5px;    
+    height: 5px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 10px 0px 0px 7px;
+    position: absolute;    
+}
+#eye2{
+    width: 5px;    
+    height: 5px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 10px 0px 0px 17px;
+    position: absolute;    
+}
+#mouth{
+    width: 12px;
+    height: 2.5px;
+    top: 50%;
+    left:20%;
+    margin: 5px 0px 0px 3px;
+    border-radius: 25%;
+    border-top: 3px;
+    background-color: red;
+    position: absolute;
+}
+#bar{
+    height: 3px;
+    width: 55px;
+    background-color: red;
+    margin: 20px 30px;
+}
+#title{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#para{
+    margin-left: 30px;
+    margin-right: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
