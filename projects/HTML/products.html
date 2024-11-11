@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="../CSS/products.css">
+    <link rel="stylesheet" href="../CSS/nav_bar.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon" href="../Images/NL_icon.png">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navigation-menu">
+                <div class="logo">
+                    <img src="../Images/NL_icon.png" alt="logo">
+                    <h3>New Look Shirts</h3>
+                </div>
+                <div class="menus">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <a href="../HTML/home.html">Home</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-address-card"></i>
+                            <a href="../HTML/about_us.html">About Us</a>
+                        </li>
+                        <li class="products">
+                            <i class="fa-brands fa-shirtsinbulk"></i>
+                            <a href="../HTML/products.html">Products</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-clipboard-list"></i>
+                            <a href="../HTML/services.html">Services</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="../HTML/contact_us.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <a href="../HTML/signup.html" class="links">SignUp</a>
+                    <a href="../HTML/login.html" class="links">Login</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="display">
+        <div class="refine">
+            <h3>Refine By</h3>            
+            <div class="refine-details">
+                <h4>Category</h4>
+                <input type="checkbox"> Formal<br>
+                <input type="checkbox"> Casual<br>
+                <input type="checkbox"> Semi-Formal<br>
+                <input type="checkbox"> Semi-Casual<br>
+                
+                <h4>Price</h4>
+                <input type="range" placeholder="From"><br>select<br><br>
+                
+                
+                <h4>Discount</h4>
+                <input type="checkbox">Festive Offer<br>
+                <input type="checkbox">Top Offer<br>
+    
+                <h4>Size & Fit</h4>
+                <input type="checkbox">S<br>
+                <input type="checkbox">M<br>
+                <input type="checkbox">L<br>
+                <input type="checkbox">XL<br>
+                <input type="checkbox">XXL<br>
+                <input type="checkbox">XS<br>
+    
+                <h4>Sleeve</h4>
+                <input type="checkbox">Full Sleeve<br>
+                <input type="checkbox">Half Sleeve<br>
+                <button>Refine</button>
+            </div>
+        </div>
+        <div class="productsSide">
+            <div class="pPageHead">
+                <h1>NEW USER SAVE 50% OFF</h1>
+                <!-- <input type="search" id="product-search"><button>Search</button> -->
+                <select name="sort" id="sort">
+                    <option value="sortBy">Sort By</option>
+                    <option value="lowToHigh">Low To High</option>
+                    <option value="highToLow">High to Low</option>
+                    <option value="topDiscount">Top Discount</option>
+                    <option value="popularity">Popularity</option>
+                </select>
+            </div>
+            <div>
+                <table class="productsImage">
+                    <tr>
+                        <td>
+                            <div class="imageBox">
+                                <img src="../Images/Model_sample.jpg" alt="">
+                            </div>
+                            <div class="productInfo">
+                                <h4 class="productTitle">Product Title</h4>
+                                <h3 class="price"><del class="strike"><i class="fa-solid fa-indian-rupee-sign"></i>600</del>           <i class="fa-solid fa-indian-rupee-sign"></i>500/-</h3>
+                                <p>Avl Size : <i class="fa-solid fa-s"></i> | <i class="fa-solid fa-m"></i> | <i class="fa-solid fa-l"></i> | <i class="fa-solid fa-x"></i><i class="fa-solid fa-l"></i> | <i class="fa-solid fa-x"></i><i class="fa-solid fa-x"></i><i class="fa-solid fa-l"></i></p><br>
+                                <p>Sleeve : </p><img class="sleeve" src="../Images/icons/mens-shirts-full-sleeve-icon.png" alt=""> | <img class="sleeve" src="../Images/icons/mens-shirts-half-sleeve-icon.png" alt="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="imageBox">
+                                <img src="../Images/Model_sample.jpg" alt="">
+                            </div>
+                            <div class="productInfo">
+                                <h4 class="productTitle">Product Title</h4>
+                                <h3 class="price"><del class="strike"><i class="fa-solid fa-indian-rupee-sign"></i>600</del>           <i class="fa-solid fa-indian-rupee-sign"></i>500/-</h3>
+                                <p>Avl Size : <i class="fa-solid fa-s"></i> | <i class="fa-solid fa-m"></i> | <i class="fa-solid fa-l"></i> | <i class="fa-solid fa-x"></i><i class="fa-solid fa-l"></i> </p><br>
+                                <p>Sleeve : <img class="sleeve" src="../Images/icons/mens-shirts-full-sleeve-icon.png" alt=""></p> | <img class="sleeve" src="../Images/icons/mens-shirts-half-sleeve-icon.png" alt="">                            
+                            </div>
+                        </td>
+                        <td>
+                            <div class="imageBox">
+                                <img src="../Images/Model_sample.jpg" alt="">
+                            </div>
+                            <div class="productInfo">
+                                <h4 class="productTitle">Product Title</h4>
+                                <h3 class="price"><del class="strike"><i class="fa-solid fa-indian-rupee-sign"></i>600</del>           <i class="fa-solid fa-indian-rupee-sign"></i>500/-</h3>
+                                <p>Avl Size : <i class="fa-solid fa-s"></i> | <i class="fa-solid fa-m"></i> | <i class="fa-solid fa-l"></i> | <i class="fa-solid fa-x"></i><i class="fa-solid fa-l"></i> </p><br>
+                                <p>Sleeve : </p><img class="sleeve" src="../Images/icons/mens-shirts-full-sleeve-icon.png" alt=""> | <img class="sleeve" src="../Images/icons/mens-shirts-half-sleeve-icon.png" alt="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="imageBox">
+                                <img src="../Images/Model_sample.jpg" alt="">
+                            </div>
+                            <div class="productInfo">
+                                <h4 class="productTitle">Product Title</h4>
+                                <h3 class="price"><del class="strike"><i class="fa-solid fa-indian-rupee-sign"></i>600</del>           <i class="fa-solid fa-indian-rupee-sign"></i>500/-</h3>
+                                <p>Avl Size : <i class="fa-solid fa-s"></i> | <i class="fa-solid fa-m"></i> | <i class="fa-solid fa-l"></i> | <i class="fa-solid fa-x"></i><i class="fa-solid fa-l"></i> </p><br>
+                                <p>Sleeve : </p><img class="sleeve" src="../Images/icons/mens-shirts-full-sleeve-icon.png" alt=""> | <img class="sleeve" src="../Images/icons/mens-shirts-half-sleeve-icon.png" alt="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="imageBox">
+                                <img src="../Images/Model_sample.jpg" alt="">
+                            </div>
+                            <div class="productInfo">
+                                <h4 class="productTitle">Product Title</h4>
+                                <h3 class="price"><del class="strike"><i class="fa-solid fa-indian-rupee-sign"></i>600</del>           <i class="fa-solid fa-indian-rupee-sign"></i>500/-</h3>
+                                <p>Avl Size : <i class="fa-solid fa-s"></i> | <i class="fa-solid fa-m"></i> | <i class="fa-solid fa-l"></i> | <i class="fa-solid fa-x"></i><i class="fa-solid fa-l"></i> </p><br>
+                                <p>Sleeve : </p><img class="sleeve" src="../Images/icons/mens-shirts-full-sleeve-icon.png" alt=""> | <img class="sleeve" src="../Images/icons/mens-shirts-half-sleeve-icon.png" alt="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="imageBox">
+                                <img src="../Images/Model_sample.jpg" alt="">
+                            </div>
+                            <div class="productInfo">
+                                <h4 class="productTitle">Product Title</h4>
+                                <h3 class="price"><del class="strike"><i class="fa-solid fa-indian-rupee-sign"></i>600</del>           <i class="fa-solid fa-indian-rupee-sign"></i>500/-</h3>
+                                <p>Avl Size : <i class="fa-solid fa-s"></i> | <i class="fa-solid fa-m"></i> | <i class="fa-solid fa-l"></i> | <i class="fa-solid fa-x"></i><i class="fa-solid fa-l"></i> </p><br>
+                                <p>Sleeve : </p><img class="sleeve" src="../Images/icons/mens-shirts-full-sleeve-icon.png" alt=""> | <img class="sleeve" src="../Images/icons/mens-shirts-half-sleeve-icon.png" alt="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="imageBox">
+                                <img src="../Images/Model_sample.jpg" alt="">
+                            </div>
+                            <div class="productInfo">
+                                <h4 class="productTitle">Product Title</h4>
+                                <h3 class="price"><del class="strike"><i class="fa-solid fa-indian-rupee-sign"></i>600</del>           <i class="fa-solid fa-indian-rupee-sign"></i>500/-</h3>
+                                <p>Avl Size : <i class="fa-solid fa-s"></i> | <i class="fa-solid fa-m"></i> | <i class="fa-solid fa-l"></i> | <i class="fa-solid fa-x"></i><i class="fa-solid fa-l"></i> </p><br>
+                                <p>Sleeve : </p><img class="sleeve" src="../Images/icons/mens-shirts-full-sleeve-icon.png" alt=""> | <img class="sleeve" src="../Images/icons/mens-shirts-half-sleeve-icon.png" alt="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="imageBox">
+                                <img src="../Images/Model_sample.jpg" alt="">
+                            </div>
+                            <div class="productInfo">
+                                <h4 class="productTitle">Product Title</h4>
+                                <h3 class="price"><del class="strike"><i class="fa-solid fa-indian-rupee-sign"></i>600</del>           <i class="fa-solid fa-indian-rupee-sign"></i>500/-</h3>
+                                <p>Avl Size : <i class="fa-solid fa-s"></i> | <i class="fa-solid fa-m"></i> | <i class="fa-solid fa-l"></i> | <i class="fa-solid fa-x"></i><i class="fa-solid fa-l"></i> </p><br>
+                                <p>Sleeve : </p><img class="sleeve" src="../Images/icons/mens-shirts-full-sleeve-icon.png" alt=""> | <img class="sleeve" src="../Images/icons/mens-shirts-half-sleeve-icon.png" alt="">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+    </section>
+
+    <section>
+        <div class="next">
+            <a href="">Next Page  </a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-bottom">
+            <div class="social-icons">
+                <ul>
+                    <li>
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-instagram"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="address">
+                <h2>AZEEZ GARMENTS</h2>
+                <P>Central Theatre Lane,<br>Ashok Nagar,<br>Natham.<br>Dindigul District - 624401.</P>
+            </div>
+            <div class="qrcode">
+                <div class="location-para">
+                    
+                    <p> <i class="fa-solid fa-location-dot"></i></i> Scan to reach  us </p>
+                </div>
+                <div class="qrimage">
+                    <img src="../Images/location_qr.png" alt="Location QR">      
+                </div>
+            </div>            
+        </div>
+    </footer>
+
+</body>
+</html>
+
+<div class="product-sec">
+    <div class="product-details">
+        <div class="pro-img">
+
+        </div>
+        <div class="pro-text">
+
+        </div>
+    </div>
+</div>
+

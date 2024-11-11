@@ -1,0 +1,69 @@
+
+@font-face {
+    font-family: "Logo name font";
+    src: url(../BonaNovaSC-Bold.ttf) format("truetype");
+}
+.navigation-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px;
+    position: sticky;
+    position:-webkit-sticky ; 
+    z-index: 1; 
+    background-color: #009FBD;
+    
+}
+
+.logo{
+    display: flex;
+}
+.logo h3 {
+    font-family: 'Logo name font' ;
+    padding: 15px;
+    margin-left: 10px;
+    border-radius: 50%;
+    color: #FCDE70;
+    background-color: rgba(0, 0, 0,0.7);
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+}
+
+.menus ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+}
+.menus li:hover{
+    color:#FF6500;
+    text-shadow: 0 0 10px #FCDE70, 0 0 20px #FCDE70, 0 0 30px #FCDE70, 0 0 40px #FCDE70;
+    transition: 1s;
+    cursor:pointer;
+}
+.menus ul li a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+    letter-spacing: 0.5px;
+}
+.menus {
+    padding: 0px 115px;
+}
+.links a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.5px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.links a:hover {
+    color:#FF6500;
+    text-shadow: 0 0 10px #FCDE70, 0 0 20px #FCDE70, 0 0 30px #FCDE70, 0 0 40px #FCDE70;
+    transition: 1s;
+    cursor:pointer;
+    font-weight: bold;   
+}

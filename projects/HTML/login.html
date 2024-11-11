@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="../CSS/login.css">
+    <link rel="stylesheet" href="../CSS/nav_bar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navigation-menu">
+                <div class="logo">
+                    <img src="../Images/NL_icon.png" alt="logo">
+                    <h3>New Look Shirts</h3>
+                </div>
+                <div class="menus">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <a href="../HTML/home.html">Home</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-address-card"></i>
+                            <a href="../HTML/about_us.html">About Us</a>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-shirtsinbulk"></i>
+                            <a href="../HTML/products.html">Products</a>
+                        </li>
+                        <li class="services">
+                            <i class="fa-solid fa-clipboard-list"></i>
+                            <a href="../HTML/services.html">Services</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="../HTML/contact_us.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <a href="../HTML/signup.html" class="links">SignUp</a>
+                    <a href="../HTML/login.html" class="links">Login</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="loginbox">
+        <div class="bg">
+            <form action="">
+                <h1>Login</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Username" required>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forgot Password</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="register-link">
+                    <p>Don't have an account? <a href="#">Register</a></p>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
