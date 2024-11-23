@@ -1,0 +1,7 @@
+.container a img{
+    border: solid 1px;
+    border-radius: 5px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+}
